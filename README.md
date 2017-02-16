@@ -11,6 +11,18 @@ Summary: Documenting CLI programs
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sphinxcontrib-autoprogram-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sphinxcontrib-autoprogram-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/sphinxcontrib-autoprogram-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sphinxcontrib-autoprogram-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sphinxcontrib-autoprogram-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sphinxcontrib-autoprogram-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram/badges/version.svg)](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram/badges/downloads.svg)](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram)
+
 Installing sphinxcontrib-autoprogram
 ====================================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `sphinxcontrib-autoprogram` availa
 ```
 conda search sphinxcontrib-autoprogram --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sphinxcontrib-autoprogram-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sphinxcontrib-autoprogram-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sphinxcontrib-autoprogram-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sphinxcontrib-autoprogram-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sphinxcontrib-autoprogram-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sphinxcontrib-autoprogram-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram/badges/version.svg)](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram/badges/downloads.svg)](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram)
 
 
 Updating sphinxcontrib-autoprogram-feedstock
