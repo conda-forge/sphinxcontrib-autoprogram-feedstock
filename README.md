@@ -14,14 +14,16 @@ Summary: Documenting CLI programs
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sphinxcontrib-autoprogram-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sphinxcontrib-autoprogram-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sphinxcontrib-autoprogram-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sphinxcontrib-autoprogram-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sphinxcontrib-autoprogram-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sphinxcontrib-autoprogram-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/sphinxcontrib-autoprogram-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/sphinxcontrib-autoprogram-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/sphinxcontrib-autoprogram-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/sphinxcontrib-autoprogram-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/sphinxcontrib-autoprogram-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/sphinxcontrib-autoprogram-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram/badges/version.svg)](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram/badges/downloads.svg)](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sphinxcontrib--autoprogram-green.svg)](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinxcontrib-autoprogram.svg)](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinxcontrib-autoprogram.svg)](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinxcontrib-autoprogram.svg)](https://anaconda.org/conda-forge/sphinxcontrib-autoprogram) |
 
 Installing sphinxcontrib-autoprogram
 ====================================
