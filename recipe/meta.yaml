@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 package:
   name: sphinxcontrib-autoprogram
   version: {{ version }}
@@ -6,7 +6,7 @@ package:
 source:
   fn: sphinxcontrib-autoprogram-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/sphinxcontrib-autoprogram/sphinxcontrib-autoprogram-{{ version }}.tar.gz
-  sha256: 7081d1b72c1652e6aa93d05d9bb39576bebd5fa3358b28ad3010ef9dcc5eed4b
+  sha256: 7ec6bdf235b491dc693d1a72fb7f9f734db69e29b81333435efb41f09f9bbeef
 
 build:
   number: 0
