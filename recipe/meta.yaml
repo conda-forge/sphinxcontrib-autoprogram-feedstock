@@ -1,4 +1,4 @@
-{% set version = "0.1.5" %}
+{% set version = "0.1.8" %}
 package:
   name: sphinxcontrib-autoprogram
   version: {{ version }}
@@ -6,12 +6,12 @@ package:
 source:
   fn: sphinxcontrib-autoprogram-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/sphinxcontrib-autoprogram/sphinxcontrib-autoprogram-{{ version }}.tar.gz
-  sha256: 7ec6bdf235b491dc693d1a72fb7f9f734db69e29b81333435efb41f09f9bbeef
+  sha256: 5a69729db9d283e0e4c6d349bd60e62a4b8ebd2c07c0ab634b82d08a4121f10a
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -33,7 +33,8 @@ test:
 about:
   home: https://bitbucket.org/birkenfeld/sphinx-contrib
   license: BSD 2-Clause
-  summary: 'Documenting CLI programs'
+  license_file: LICENSE
+  summary: Documenting CLI programs
 
 extra:
   recipe-maintainers:
