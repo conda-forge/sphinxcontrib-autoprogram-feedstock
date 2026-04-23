@@ -5,28 +5,30 @@ package:
 
 source:
   fn: sphinxcontrib-autoprogram-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/s/sphinxcontrib-autoprogram/sphinxcontrib-autoprogram-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/s/sphinxcontrib-autoprogram/sphinxcontrib-autoprogram-{{ version }}.tar.gz
   sha256: 7ec6bdf235b491dc693d1a72fb7f9f734db69e29b81333435efb41f09f9bbeef
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 2
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python {{ python_min }}
     - setuptools
     - sphinx >=1.2
     - six
 
   run:
-    - python
+    - python >={{ python_min }}
     - sphinx >=1.2
     - six
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - sphinxcontrib
 
